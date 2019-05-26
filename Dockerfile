@@ -4,7 +4,7 @@ MAINTAINER Bhukya
 
 WORKDIR /
 
-COPY target/my-app-1.0-SNAPSHOT.jar my-app-1.0-SNAPSHOT.jar
+COPY ./my-app-1.0-SNAPSHOT.jar my-app-1.0-SNAPSHOT.jar
 
 EXPOSE 8080
 
